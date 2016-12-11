@@ -1,6 +1,6 @@
 package Bundle::DadaMail;
 
-$VERSION = '0.0.3';
+$VERSION = '0.0.4';
 
 1;
 
@@ -35,6 +35,8 @@ L<http://dadamailproject.com>
 LWP - So many things. Makes the Send a Webpage work, for starters.  actually a required module, but we assume the environment Dada Mail is installed on has this already (I know, never assume!)
 
 IO::Socket::SSL
+
+JSON
 
 YAML
 
