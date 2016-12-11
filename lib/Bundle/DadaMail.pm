@@ -1,6 +1,6 @@
 package Bundle::DadaMail;
 
-$VERSION = '0.0.1';
+$VERSION = '0.0.2';
 
 1;
 
@@ -35,6 +35,8 @@ L<http://dadamailproject.com>
 LWP - So many things. Makes the Send a Webpage work, for starters.  actually a required module, but we assume the environment Dada Mail is installed on has this already (I know, never assume!)
 
 IO::Socket::SSL
+
+YAML
 
 CSS::Inliner - Used in inlining CSS in HTML email messages. Important for making sure HTML messages look correctly in most all readers.
 
