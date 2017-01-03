@@ -80,6 +80,10 @@ Captcha::reCAPTCHA::Mailhide
 
 DBI - actually a required module, but we assume the environment Dada Mail is installed on has this already (I know, never assume!)
 
+XML::FeedPP - for sending out RSS feeds as mass mailings
+
+Time::Piece - used in templates for http://dadamailproject.com/d/features-email_template_syntax.pod.html#Flexible-Date-and-Time-formats
+
 XMLRPC::Lite
 
 Cwd - for Amazon SES
@@ -93,3 +97,4 @@ MIME::Base64 - for Amazon SES
 Crypt::SSLeay - for Amazon SES
 
 XML::LibXML - for Amazon SES
+
