@@ -32,6 +32,8 @@ L<http://dadamailproject.com>
 
 =head1 CONTENTS
 
+parent
+
 LWP - So many things. Makes the Send a Webpage work, for starters.  actually a required module, but we assume the environment Dada Mail is installed on has this already (I know, never assume!)
 
 IO::Socket::SSL
@@ -52,6 +54,8 @@ DateTime::Event::Recurrence - used for scheduled mass mailings
 
 DateTime - same
 
+File::Find::Rule - used for the Perl connector in KCFInder
+
 HTML::Tree - used for Dada Mail's "Magic" templates, as well as manipulating HTML documents
 
 HTML::Element - same
@@ -67,8 +71,6 @@ Net::Domain
 JSON - actually required for Dada Mail - Pure Perl version included, but you probably want to use a faster version
 
 MIME::Base64
-
-Net::DNS;
 
 Text::CSV - actually required for Dada Mail - Pure Perl version included, but you probably want to use a faster version
 
