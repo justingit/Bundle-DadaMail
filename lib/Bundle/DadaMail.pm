@@ -1,6 +1,6 @@
 package Bundle::DadaMail;
 
-$VERSION = '0.0.4';
+$VERSION = '0.0.5';
 
 1;
 
@@ -99,4 +99,8 @@ MIME::Base64 - for Amazon SES
 Crypt::SSLeay - for Amazon SES
 
 XML::LibXML - for Amazon SES
+
+Net::DNS
+
+
 
