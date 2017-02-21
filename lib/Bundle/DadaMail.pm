@@ -1,6 +1,6 @@
 package Bundle::DadaMail;
 
-$VERSION = '0.0.5';
+$VERSION = '0.0.6';
 
 1;
 
@@ -101,6 +101,8 @@ Crypt::SSLeay - for Amazon SES
 XML::LibXML - for Amazon SES
 
 Net::DNS
+
+Image::Resize - used for resizing images when using Drag and Drop in CKEditor
 
 
 
