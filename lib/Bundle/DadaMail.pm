@@ -68,6 +68,8 @@ Gravatar::URL
 
 Net::Domain
 
+Net::IP
+
 Net::POP3 - used for POP3 access, for example: Bounce Handler and Bridge
 
 Net::SMTP - used for sending via SMTP
