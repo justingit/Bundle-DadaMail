@@ -62,6 +62,8 @@ HTML::Element - same
 
 HTML::TreeBuilder - same
 
+HTTP::BrowserDetect - Makes reporting of user agents prettier
+
 Google::reCAPTCHA
 
 Gravatar::URL
